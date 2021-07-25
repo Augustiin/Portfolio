@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #03132B;
+}
+
+/* Header of the page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 100px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Landing page */
+
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.head-title {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sub-title {
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 400px;
+    font-size: 50px;
+}
+
+/* Work page OCL */
+
+.OCL-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+.OCL-page video {
+    padding-right: 30px;
+    width: 100%;
+    height: auto;
+}
